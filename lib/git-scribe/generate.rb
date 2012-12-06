@@ -153,7 +153,7 @@ class GitScribe
 
     def clean_up
       FileUtils.rm Dir.glob('**/*.asc')
-      FileUtils.rm_r @remove_when_done
+      FileUtils.rm_rf @remove_when_done
     end
 
     def ex(command)
@@ -321,6 +321,7 @@ _EOM
         'book.epub.d' <<
         'book_for_mobi.epub'
 
+      FileUtils.mkdir_p('book.epub.d')
       Dir.chdir('book.epub.d') do
         ex("zip ../book_for_mobi.epub . -r")
       end
