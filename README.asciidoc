@@ -1,6 +1,11 @@
 This Fork
 ---------
 
+This is fork of fork https://github.com/eee-c/git-scribe. The goal
+is to amend .gemspec file and release changes to rubygems.org as
+prefixed package. I've chosen 'couchbase-' prefix just to avoid
+any intersection. Read original "This Fork" message below:
+
 This fork is used to maintain my ebooks: http://spdybook.com,
 http://recipeswithbackbone.com, and http://dartforhipsters.com. It
 adds some features (page resizing, formatting tweaks, Kindle Fire
