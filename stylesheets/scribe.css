@@ -180,3 +180,8 @@ h5 {
 	color:#000;
 	text-transform:uppercase
 }
+
+pre {
+    white-space: pre-wrap;
+    overflow: hidden;
+}

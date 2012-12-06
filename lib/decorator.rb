@@ -1,3 +1,5 @@
+require 'open3'
+
 class Decorator
   def initialize
     @dir = Dir.pwd
